@@ -36,12 +36,9 @@ export class App extends React.Component {
 
     return (
       <Wrapper>
-
         <Title title={'Please leave feedback'} />
         <FeedbackOptions options={options}
           onLeaveFeedback={this.updateFeedback} />
-        
-
         {totalFeedback === 0 ? <Notification message={"There is no feedback"} /> :
           <Statistics
             good={good}

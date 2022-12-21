@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import { RiEmotionSadLine } from 'react-icons/ri';
 import { Wrapper, Paragraf } from './Notification.styled'
 
@@ -10,3 +11,7 @@ export const Notification = ({ message }) => {
             </Paragraf>
         </Wrapper>)
 }
+
+Notification.propTypes = {
+    message: PropTypes.string.isRequired,
+};

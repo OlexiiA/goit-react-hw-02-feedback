@@ -1,9 +1,9 @@
 import React from "react";
-import { Statistics } from "./Statistics/Statistics";
-import { Notification } from "./Notification/Notification";
-import { Title } from "./Title/Title";
+import { Title } from "./Title";
+import { Statistics } from "./Statistics";
+import { Notification } from "./Notification";
+import { FeedbackOptions } from "./FeedbackOptions";
 import { Wrapper } from "./Wrapper";
-import { FeedbackOptions } from "./FeedbackOptions/FeedbackOptions";
 
 export class App extends React.Component {
 
